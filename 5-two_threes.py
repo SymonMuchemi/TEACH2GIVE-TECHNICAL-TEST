@@ -4,6 +4,14 @@
 # should return True for [1, 3, 3] and False for [1, 3, 1, 3]
 
 def two_threes(lst: list):
+    """check to see if a string contains two consecutive 3's
+
+    Args:
+        lst (list): list of integers
+
+    Returns:
+        bool: True or False
+    """
     prev = 0
     curr = 1
     
