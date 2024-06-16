@@ -4,6 +4,14 @@
 # hello => l
 
 def mode_char(s: str):
+    """gets the first most recurring character in a string
+
+    Args:
+        s (str): a sequence of characters
+
+    Returns:
+        str: the most recurring character
+    """
     char_freq = {}
     max_val = float('-inf')
     max_key = None
